@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @GetMapping("/test")
     public String testCheck(){
-        return "CI/CD 테스트 성공!!!!!!";
+        return "CI/CD 테스트 성공했떠연!!!!!!";
     }
 
 }
